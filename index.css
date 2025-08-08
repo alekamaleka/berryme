@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* background-color: aqua; */
+    text-align: right;
+    /* margin-right: 10px; */
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.nachalo {
+    display: flex;
+    gap: 105px;
+    text-align: center;
+}
+.nachalo h1 {
+    font-size: 24px;
+    color: rgb(231, 0, 0);
+}
+.input  {
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 20px;
+}
+.input input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(234, 233, 233);
+}
+
+.card-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin-top: 20px;
+}
+.pop h1{
+    text-align: center;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 карточки в ряд */
+  gap: 16px; /* отступы между карточками */
+  padding: 10px;
+}
+
+.box{
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.box img {
+    width: 150px;
+    border-radius: 8px;
+}
+.box h3{
+    color: rgb(218, 0, 0);
+}
+.box p{
+    color: rgb(0, 0, 0);
+}
+.clovo h1{
+    text-align: center;
+    color: grey;
+    margin-top: 20px;
+}
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 карточки в ряд */
+  gap: 16px; /* отступы между карточками */
+  padding: 10px;
+  margin-top: 20px;
+}
+.kl{
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.kl img {
+    width: 150px;
+    border-radius: 8px;
+}
+.kl h3{
+    color: rgb(218, 0, 0);
+}
+.kl p{
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    background-color: rgb(237, 235, 235);
+}
+footer a {
+    text-decoration: none;
+    width: 200px;
+    /* height: 200px; */
+    padding: 20px;
+    display: flex;
+    color: red;
+    font-size: 14px;
+}
